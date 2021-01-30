@@ -1,0 +1,329 @@
+
+/* Big tablet to 1200px: from 1023px to 1200px*/
+@media only screen and (max-width:1200px){
+   
+    header h1{
+        font-size: 30px;
+    }
+    .hero-text-box{
+
+    width: 100%;
+    margin-left: 30px;
+
+    }
+
+    .logo-white{
+    height: 90px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 40px;
+    cursor: pointer;
+    }
+
+    .area-search{
+        width: 400px;
+        margin-left: 190px;
+        padding: 0;
+    
+    }
+
+
+/* SECTION ANYWHERE */
+
+
+.learn-anywhere{
+    margin-top: -100px;
+}
+
+/* SECTION SIGNUP FREE */
+.box-signup{
+    width: 80%;
+    margin: 0 auto;
+}
+.box-signup h2{
+    font-size: 130%;
+}
+
+.box-signup p{
+    font-size: 130%;
+}
+
+}
+
+
+
+
+/* Small tablet to big tablet: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+
+/* Mobilre nav */
+.main-nav{
+    float: right;
+    text-transform: uppercase;
+    margin-top: 55px;
+
+   
+}
+.main-nav li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 25px;
+    margin-top: -0px;
+    padding-bottom: 10px;
+}
+
+/* nav bar*/
+.nav-bar{
+    margin: 30px 60px;
+
+}
+
+
+/*---- SECTION ANYWHERE ----*/
+.learn-anywhere{
+    margin-top: -150px;
+}
+
+
+
+/*------ STEP ------*/
+.step-side-start-now{
+    margin-top: -140px;
+}
+
+
+/*----- HOW IT'S WORKS -----*/
+
+.row-how-it-work{
+    margin: 0 auto;
+}
+.row-how-it-work .box .step-box div ul li{
+padding: 0px 0px 0px 30px;
+}
+.li-text{
+    font-size: 80%;
+}
+
+
+
+.step-box{
+    width: 90%;
+}
+
+
+
+li {
+    list-style-type: none;
+    display: flex;
+    padding-left: 4em;
+    margin-top: 20px;
+
+}
+ul:first-child {
+    margin-top: 50px;
+}
+
+
+/*---- TESTIMONIALS ----*/
+  
+.inside-box P{
+    font-size: 110%;
+    margin-top: 40px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+/* Small phones to small: from 481px to 767px */
+@media only screen and (max-width:767px){
+
+/* Mobile icon */
+.mobile-icon-small{
+    font-size: 300%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading*/
+h2{
+    font-size: 150%;
+    padding: 0px;
+
+}
+h3{
+  
+    font-size: 100%;
+    padding: 30px;
+    margin: 0;
+
+}
+
+
+
+/* nav bar*/
+.sticky .nav-bar{
+    margin: 0px 50px;
+    margin-top: 15px;
+    font-size: 250%;
+}
+.nav-bar{
+    margin: 0px 50px;
+    margin-top: 40px;
+    font-size: 250%;
+}
+
+/* area search */
+.area-search{
+    margin-left: 130px;
+}
+
+.search-btn{
+    font-size: 220%;
+}
+.area-search{
+    width: 300px;
+}
+
+.sticky .area-search{
+    margin-left: 150px;
+    width: 300px;
+}
+ 
+.stciky .search-btn{
+    font-size: 220%;
+}
+
+
+/* Mobile logo */
+
+.sticky .logo-white{
+    height: 60px;
+
+    margin-top: 9px;
+    margin-left: 100px;
+
+}
+.logo-white{
+    height: 60px;
+
+    margin-top: 9px;
+    margin-left: 40px;
+
+}
+
+/* Mobile Nav */
+
+.nav-bar:hover{
+    color: #f3aa62;
+}
+.logo-white{
+    height: 70px;
+    float: left;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.sticky .logo-white{
+    margin-left: 50px;
+}
+
+
+input[type=text]{
+
+    width: 80%;
+    margin-top: 45px;
+  
+    padding: 8px;
+    padding-left: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+}
+
+/* section box */
+.box-img{
+    display: none;
+}
+
+.steps-box{
+    
+    width: 100%;
+}
+
+.steo-box p{
+    width: 180%;
+}
+
+/* How it's work */
+.col{
+    width: 100%;
+}
+
+.col .step-box p{
+    font-size: 100%;
+}
+
+.li-text{
+    font-size: 90%;
+}
+
+.step-box ul{
+    margin: 0;
+}
+.icon-and-title-side{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Team */
+.box-team div{
+    width: 300px;
+}
+.col{
+    margin: 0 auto;
+}
+
+
+/* Testimonials */
+.inside-box{
+    width: 90%;
+
+}
+
+}
+
+
+/* Small phones: from o to 480px*/
+@media only screen and (max-width:480px){
+
+/* Header */
+
+
+.hero-text-box h1{
+    font-size: 160%;
+}
+.hero-text-box{
+    margin-top: 0px;
+}
+.area-search{
+    display: none;
+} 
+
+/* Testimonials */
+
+.inside-box p{
+    font-size: 100%;
+}
+
+
+}
