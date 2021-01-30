@@ -511,7 +511,7 @@ ul:first-child {
 /* ------------------------------------------------------------ */
 
 .section-testimonials{
-    background:linear-gradient(rgba(68,169,248,0.7),rgba(68,169,248,0.7)), url(../img/background-testimonials.webp) center center fixed;
+    background:linear-gradient(rgba(68,169,248,0.7),rgba(68,169,248,0.7)), url(../img/background-blue.jpg) center center fixed;
     background-size: cover;
     padding-bottom: 55px;
     
