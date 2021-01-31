@@ -33,7 +33,22 @@
 
 /* Small phones to small: from 481px to 767px */
 @media only screen and (max-width:767px){
+    .login-main{
 
+        display: block;
+        position: relative;
+        background-color: #F4F4F4;
+        border-radius: 20px;
+        width: 400px;
+        height: 500px;
+        margin: 0 auto;
+        margin-top: 150px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    
 }
 
 
