@@ -233,6 +233,9 @@ input[type=text]{
 /* Small phones: from o to 480px*/
 @media only screen and (max-width:480px){
 
+.box-course{
+    width: 300px;
+}
 
 /* Header */
 
@@ -306,4 +309,58 @@ input[type=submit]{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
+/*----- FOOTER -----*/
+
+.logo-white-footer{
+    width: 90px;
+}
+.box-logo{
+    display: flex;
+    justify-content: center;
+    border-bottom: #fff;
+    
+}
+
+.first-box{
+    font-size: 10px;
+}
+
+/* ---- The Second Box ---- */
+.second-box{
+    display: flex;
+    justify-content: right;
+}
+
+.copyright-box p{
+    
+  
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+
+  
+}
+
+
+.list ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.list{
+    margin-left: 100px;
+
+}
+.list ul  li{
+    
+    list-style: none;
+    padding-right: 50px;
+    padding-top: 50px;
+    float: left;
+    margin: 13px 0px;
+}
+
+
 }

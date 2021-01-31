@@ -722,17 +722,18 @@ footer .row h4{
 .list ul li a{
     text-decoration: none;
     color: #fff;
+    
 }
 
 
 .list{
-    margin-left: 100px;
+    margin-left: 0px;
 
 }
 .list ul  li{
     list-style: none;
-    padding-right: 50px;
-    padding-top: 50px;
+    padding-right: 0px;
+    padding-top: 0px;
     float: left;
-    margin: 13px 0px;
+    margin: 0px 0px;
 }
